@@ -1,0 +1,82 @@
+$background-color: #09630B;
+
+html, body, #root, .App {
+	height: 100%;
+}
+
+div.App.container-fluid {
+	padding: 0;
+	color: white;
+	overflow-x: hidden;
+}
+
+nav {
+	background-color: $background-color;
+	padding: 3rem;
+}
+
+main {
+	padding-top: 3.5rem;
+	padding-bottom: 2rem;
+}
+
+h1 {
+	font-size: 24px;
+	display: inline;
+}
+
+.container {
+	text-align: center;
+	background-color: #657A75;
+	border: 5px solid #CB593C;
+	padding: 15px 30px 15px 30px;
+	border-radius: 5px;
+}
+
+#board {
+	display: inline-block;
+	margin-top: 10px;
+	margin: 10px auto 10px auto;
+	background-color: #657A75;
+	border: 5px solid #CB593C;
+	border-radius: 5px;
+	padding: 15px 30px 15px 30px;
+}
+
+.square {
+	border: 1px solid #999;
+	height: 10px;
+	width: 10px;
+	margin-right: -1px;
+	margin-top: -1px;
+	padding: 0;
+}
+
+.alive {
+	background-color: yellow;
+}
+
+p {
+	background-color: black;
+	display: inline;
+	margin: 5px 5px 5px 5px;
+	padding: 3px 3px 3px 3px;
+	border-radius: 5px;
+}
+
+.buttonRow {
+	margin-top: 10px;
+}
+
+button {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	background-color: $background-color;
+	text-align: center;
+	padding: 1rem;
+}
